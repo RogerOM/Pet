@@ -11,7 +11,8 @@ public abstract class Animal {
     public void walk() {
         System.out.println("This animal walks on " + legs + " legs.");
     }
-    
+     
+    //metodo eat abstracto para todos los animales
     public abstract void eat();
     
 }
